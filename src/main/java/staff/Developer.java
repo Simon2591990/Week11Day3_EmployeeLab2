@@ -1,4 +1,4 @@
-package techStaff;
+package staff;
 
 public class Developer {
 }
