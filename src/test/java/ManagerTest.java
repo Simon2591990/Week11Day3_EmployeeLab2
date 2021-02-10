@@ -59,4 +59,15 @@ public class ManagerTest {
     public void canGetBonus(){
         assertEquals(340.00, manager.payBonus(), 0.01);
     }
+
+    @Test
+    public void hasDepartment(){
+        assertEquals("Logistics", manager.getDepartment());
+    }
+
+    @Test
+    public void canChangeDepartment() {
+        manager.setDepartment("Actuarial");
+        assertEquals("Actuarial", manager.getDepartment());
+    }
 }

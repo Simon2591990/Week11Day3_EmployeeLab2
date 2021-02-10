@@ -42,4 +42,5 @@ public abstract class Employee {
     public Double payBonus(){
         return this.salary * 0.01;
     }
+
 }
